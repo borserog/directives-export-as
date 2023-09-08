@@ -1,0 +1,10 @@
+<h1>exportAs Directive Metadata Example</h1>
+<p appHighlight #tpl #tplWithDirective="hl">
+  Start editing to see some magic happen :)
+</p>
+<p class="second-p" (dblclick)="tplWithDirective.toggle()">
+  Click-me twice to toggle background
+</p>
+<p class="second-p" (click)="onParagraphClicked()">
+  Remove background accessing the Directive's API
+</p>
